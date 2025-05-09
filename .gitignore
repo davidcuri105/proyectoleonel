@@ -1,0 +1,14 @@
+# Ignorar node_modules en ambas partes
+client/node_modules/
+server/node_modules/
+
+# Ignorar .env si usas variables de entorno
+client/.env
+server/.env
+
+# Archivos del sistema
+.DS_Store
+
+# Builds
+client/build/
+server/build/
